@@ -140,7 +140,7 @@ namespace Roboter {
     //% direction.fieldOptions.columns=3
     //% speed.min=0 speed.max=255
     //% speed.defl=200
-    //% direction.defl=0
+    //% direction.defl=Roboter.Dir.CW
     //% weight=290
     export function driveNonBlockingForeverLeft(direction: Dir, speed: number) {
         writeData([0x00, direction, speed]);
@@ -154,7 +154,7 @@ namespace Roboter {
     //% direction.fieldOptions.columns=3
     //% speed.min=0 speed.max=255
     //% speed.defl=200
-    //% direction.defl=0
+    //% direction.defl=Roboter.Dir.CW
     //% weight=280
     export function driveNonBlockingForeverRight(direction: Dir, speed: number) {
         writeData([0x02, direction, speed]);
@@ -170,7 +170,7 @@ namespace Roboter {
     //% direction.fieldOptions.columns=3
     //% speed.min=0 speed.max=255
     //% speed.defl=200
-    //% direction.defl=0
+    //% direction.defl=Roboter.Dir.CW
     //% weight=270
     export function driveTimeNonBlocking(time: number, direction: Dir) {
         control.inBackground(function () {
