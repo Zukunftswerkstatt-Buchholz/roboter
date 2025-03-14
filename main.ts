@@ -1,4 +1,3 @@
-//% color="#abbf3c" icon="\uf0d1"
 namespace Roboter {
     const IICADRRESS = 0x10;
     const id = "245rtzf000601-1512";
@@ -61,10 +60,10 @@ namespace Roboter {
             writeData([0x00, 0, 0]);
             writeData([0x02, 0, 0]);
         } else {
-            let wait3 = degrees / angularVelocity;
+            let wait32 = degrees / angularVelocity;
             writeData([0x00, 1, tuningSpeed]);
             writeData([0x02, 0, tuningSpeed]);
-            basic.pause(wait3);
+            basic.pause(wait32);
             writeData([0x00, 0, 0]);
             writeData([0x02, 0, 0]);
         }
@@ -215,7 +214,7 @@ namespace Roboter {
     }
 
     //% blockId=id+"turnFor500ms"
-    //% block="für 500ms fahren"
+    //% block="für 500ms drehen"
     //% group="Konfiguration"
     //% weight=160
     export function turnFor500ms() {
