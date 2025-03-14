@@ -1,6 +1,3 @@
-
-> Diese Seite bei [https://galbatoriz.github.io/roboter/](https://galbatoriz.github.io/roboter/) öffnen
-
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
@@ -22,3 +19,5 @@ Um dieses Repository in MakeCode zu bearbeiten.
 
 * for PXT/calliopemini
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+> Diese Seite bei [https://galbatoriz.github.io/roboter/](https://galbatoriz.github.io/roboter/) öffnen
