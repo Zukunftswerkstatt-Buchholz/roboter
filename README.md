@@ -1,3 +1,5 @@
+Diese Erweiterung erweitert die vorhandene [MotionKit V2](https://github.com/tinysuperlab/MotionKitV2) Erweiterung um neue Blöcke. Mit diesen neuen Blöcken soll die Steuerung vereinfacht werden. Es gibt Blöcke, um den Roboter zu drehen oder eine bestimmte Strecke fahren zu lassen.
+
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
@@ -6,6 +8,15 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **Roboter** suchen und importieren
+
+## Kalibrierung
+
+`Roboter.set_velocity(0)` Strecke[cm], die der Robotor in 1s zurücklegt
+`Roboter.set_angular_velocity(0)` Grandzahl[°], die der Robotor sich in 500ms dreht
+
+## Nicht blockierendes Fahren
+
+Der Befehl `Roboter.drive_time_non_blocking bzw.` der Block `Für [ZEIT] ms [RICHTUNG] fahren, dabei das Programm weiterlaufen lassen` lässt das Programm nicht anhalten. Befehle nach diesem Block
 
 ## Dieses Projekt bearbeiten
 
