@@ -16,7 +16,7 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
 ## Nicht blockierendes Fahren
 
-Der Befehl `Roboter.drive_time_non_blocking bzw.` der Block `Für [ZEIT] ms [RICHTUNG] fahren, dabei das Programm weiterlaufen lassen` lässt das Programm nicht anhalten. Befehle nach diesem Block
+Der Befehl `Roboter.drive_time_non_blocking bzw.` der Block `Für [ZEIT] ms [RICHTUNG] fahren, dabei das Programm weiterlaufen lassen` lässt das Programm nicht anhalten. Befehle nach diesem Block werden sofort ausgeführt.
 
 ## Dieses Projekt bearbeiten
 
