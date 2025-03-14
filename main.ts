@@ -1,3 +1,4 @@
+//% color="#abbf3c" icon="\uf0d1"
 namespace Roboter {
     const IICADRRESS = 0x10;
     const id = "245rtzf000601-1512";
